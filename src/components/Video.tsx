@@ -93,8 +93,8 @@ export default function Video(props: VideoProps) {
           </div>
           <div className='flex flex-col gap-4'>
             <a
+              href='https://discord-service.rocketseat.dev/signin/ignite-lab'
               target='_blank'
-              href=''
               className='p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors'>
               <DiscordLogo size={24} />
               Comunidade do Discord
@@ -112,7 +112,8 @@ export default function Video(props: VideoProps) {
 
         <div className='gap-8 mt-20 grid grid-cols-2'>
           <a
-            href=''
+            href='https://efficient-sloth-d85.notion.site/Material-complementar-86d4ef35af16471ebc3ae3eba1a378e5'
+            target='_blank'
             className='bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors'>
             <div className='bg-green-700 h-full p-6 flex items-center'>
               <FileArrowDown size={40} />
@@ -132,7 +133,8 @@ export default function Video(props: VideoProps) {
           </a>
 
           <a
-            href=''
+            href='https://drive.google.com/drive/folders/1mxWnvlqmH7MbVRv2Na9xFNgCQCygM1iR'
+            target='_blank'
             className='bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors'>
             <div className='bg-green-700 h-full p-6 flex items-center'>
               <FileArrowDown size={40} />
