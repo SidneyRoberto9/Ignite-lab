@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 import Logo from '../components/Logo';
 import { useCreateSubscriberMutation } from '../generated';
+import ColdImage from './../assets/cold-mockup.png';
 
 export default function Subscribe() {
   const navigate = useNavigate();
@@ -67,7 +68,7 @@ export default function Subscribe() {
           </form>
         </div>
       </div>
-      <img src='/src/assets/cold-mockup.png' className='mt-10' alt='' />
+      <img src={ColdImage} className='mt-10' alt='' />
     </div>
   );
 }
